@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Cairo|Righteous&display=swap');
+
+body {
+    color: black;
+    background-color: rgb(199, 199, 199);
+    font-family: 'Bree Serif', 'Cairo', 'Righteous';
+    text-align: center;
+    font-size: 1.4em;
+}
+
+header {
+    text-align: center;
+    font-family: 'Bree Serif', 'Cairo', 'Righteous';
+    color: white;
+    background-color: rgb(175, 0, 0);
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: 'Bree Serif', 'Cairo', 'Righteous';
+    font-size: 1.5em;
+}
+
+h2 {
+    font-family: 'Bree Serif', 'Cairo', 'Righteous';
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'Bree Serif', 'Cairo', 'Righteous';
+}
+
+img {
+    width: 200px;
+    display: block;
+}
+
+.info {
+    text-align: left;
+    font-size: 1.35em;
+    margin-left: 25px;
+}
+
+footer {
+    background-color: rgb(175, 0, 0);
+    height: 490px;;
+    
+}
+
+form {
+    display: inline-block;
+}
+
+legend {
+    font-size: .9em;
+    line-height: 1.8em;
+    font-weight: bold;
+    color: #000;
+}
+
+.textlabel {
+    line-height: 1.8em;
+    text-align: right;
+    /* width: 820px; */
+    margin-right: 5px;
+    float: left;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.buttonscss {
+    margin-left: 155px;
+    
+}
+
+.betting {
+    font-weight: normal;
+}
+
+/* #pI {
+    text-align: center;
+} */
+
+#btnLeave {
+    margin-left: 30px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: underline; 
+}
+

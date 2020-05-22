@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Cairo|Righteous&display=swap');
+
+html {
+    background-color: black;
+}
+
+p {
+    position: absolute;
+    font-family: 'Bree Serif', 'Cairo', 'Righteous';
+}
+
+img {
+    position: absolute;
+    display: inline;
+}
+
+button {
+    background-color: crimson;
+    position: absolute;
+    border: none;
+    color: white;
+    font-family: 'Cairo', 'Bree Serif', 'Righteous';
+    padding: 5px 10px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    top: 880px;
+    left: 1852px;
+}
+
+button:hover {
+    background-color: white;
+    padding: 2px 4px;
+    font-weight: bolder;
+    border-radius: 8px;
+    color: crimson;
+}
+
+@media all and (max-width: 1700px)
+{
+    .curtains
+    {
+        width: 900px;
+    }
+
+    button
+    {
+        top: 880px;
+        left: 1630px;
+    }
+}
+
+@media all and (max-width: 1500px)
+{
+    .curtains
+    {
+        width: 800px;
+    }
+
+    button
+    {
+        top: 880px;
+        left: 1430px;
+    }
+}
+
+@media all and (max-width: 1320px)
+{
+    .curtains
+    {
+        width: 700px;
+    }
+
+    button
+    {
+        top: 880px;
+        left: 1250px;
+    }
+}
+
+@media all and (max-width: 950px)
+{
+    .curtains
+    {
+        width: 500px;
+    }
+
+    button
+    {
+        top: 880px;
+        left: 860px;
+    }
+}
+
+

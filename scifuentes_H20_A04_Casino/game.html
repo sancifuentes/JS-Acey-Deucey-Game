@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="./styles/game.css" rel="stylesheet" type="text/css">
+    <title>Ace Ventura Casino's Acey Deucey</title>
+</head>
+
+<body>
+    <header class='w3-container'>
+
+        <h1>Ace Ventura Casino</h1>
+        <h2>Acey Deucey</h2>
+    </header>
+
+    <div class="info" class="w3-panel">
+        <h1>Player Information</h1>
+        <p class="playerInfo">
+            <span id="qInfo1"></span>
+        </p>
+
+        <p class="playerInfo">
+            <span id="qInfo2"></span>
+        </p>
+
+        <p class="playerInfo">
+            <span id="qInfo3"></span>
+        </p>
+
+        <p class="playerInfo">
+            <span id="qInfo4"></span>
+        </p>
+
+        <p class="playerInfo">
+            <span id="qInfo5"></span><a>Change your credentials</a>
+        </p>
+     
+        <form class="betting">
+            <p>
+                <label class="textlabel" label for="betAmt">Bet amount:</label>
+                <input id="betAmt" name="betAmt" placeholder="" size="20" type="text">
+            </p>
+
+            <br>
+            <button id="btnPlay" type="button">Play</button>
+            <button id="btnLeave" type="button">Leave</button>
+        </form>
+    </div>
+
+    <footer class='w3-container'>
+
+    </footer>
+
+
+    <script src="./js/game.js"></script>
+    <!-- <script src="./js/gameTest.js"></script> -->
+    <script src="./js/gameValidation.js"></script>
+</body>
+
+</html>

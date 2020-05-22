@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="./styles/game.css" rel="stylesheet" type="text/css">
+    <title>Ace Ventura Casino's Acey Deucey</title>
+</head>
+
+<body>
+    <header class='w3-container'>
+
+        <h1>Ace Ventura Casino</h1>
+    </header>
+
+
+    <h1 id="pI">Player Information</h1>
+
+    <div id="formFormat">
+        <div id="myErrors">
+            <h3 id="errorMsg"></h3>
+    </div>
+    <form action="game.html" id="reForm" method="get" name="reForm" onsubmit="return checkForm()">
+      
+      <p>
+        <label class="textlabel" label for="firstName">First name:</label>
+        <input id="firstName" name="firstName" placeholder="First name" size="30" type="text">
+      </p>
+
+      <p>
+        <label class="textlabel" label for="lastName">Last name:</label>
+        <input id="lastName" name="lastName" placeholder="Last name" size="30" type="text">
+      </p>
+
+      <p>
+        <label class="textlabel" label for="userName">Username:</label>
+        <input id="userName" name="userName" placeholder="Username" size="30" type="text">
+      </p>
+
+      <p>
+        <label class="textlabel" label for="phoneNumber">Phone:</label>
+        <input id="phoneNumber" name="phoneNumber" placeholder="(###) ###-####" size="20" type="text">
+      </p>
+
+      <p>
+        <label class="textlabel" label for="city">City:</label>
+        <input id="city" name="city" placeholder="City" size="20" type="text">
+      </p>
+
+      <p>
+        <label class="textlabel" label for="email">Email:</label>
+        <input id="email" name="email" placeholder="Email address" size="20" type="text">
+      </p>
+
+      <p>
+        <label class="textlabel" label for="bankAmt">Starting bank:</label>
+        <input id="bankAmt" name="bankAmt" placeholder="Starting amount of money" size="30" type="text">
+      </p>
+
+      <p>
+       <br><input name="subButton" id="submit" type="submit"> 
+      </p>
+      
+    </form>
+  </div>
+
+
+    <footer class='w3-container'>
+    </footer>
+
+
+    <script src="./js/gameValidation.js"></script>
+    <script src="./js/gameCheckStorage.js"></script>
+
+</body>
+
+</html>
